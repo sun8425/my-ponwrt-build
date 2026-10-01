@@ -20,6 +20,7 @@ cd ponwrt
 #  更新并安装 feeds（软件包源）
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+pwd
 
 #  选择配置 以目标7581为例
 cp configs/an7581.config .config
